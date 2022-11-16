@@ -1,8 +1,9 @@
-.head{
-    min-width: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://img.mako.co.il/2019/07/14/547080_I.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+.header {
+  min-width: 100px;
+  height: 700px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(https://img.mako.co.il/2019/07/14/547080_I.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
