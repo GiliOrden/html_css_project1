@@ -1,0 +1,80 @@
+@media (max-width: 900px) {
+  .the_enter {
+    width: 90%;
+  }
+
+  .the_enter h1 {
+    font-size: 30px;
+  }
+  .links ul li a {
+    font-size: 10px;
+  }
+  .wars {
+    padding: 0px 0px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .wars_list {
+    justify-content: center;
+  }
+  .war_style {
+    height: 200px;
+    margin: 20px 10px;
+    width: 46%;
+  }
+  .war_style img {
+    width: 100%;
+  }
+  #war7 {
+    margin-left: 0;
+  }
+  #war8 {
+    margin-right: 0;
+  }
+}
+/* -------------timeline------------ */
+.timeline {
+  margin-left: 50px;
+}
+.timeline::after {
+  left: 31px;
+}
+.section {
+  width: 80%;
+  padding-left: 80px;
+  padding-right: 25px;
+}
+.content {
+  font-size: 13px;
+}
+.section:nth-child(odd) {
+  left: 0;
+}
+.section:nth-child(even) {
+  left: 0;
+}
+.section:nth-child(even) .point {
+  left: 25px;
+}
+.section:nth-child(odd) .point {
+  left: 25px;
+}
+.section:nth-child(odd) span {
+  border-left: 15px solid transparent;
+  border-right: 15px solid rgb(212, 195, 195);
+  left: 50px;
+}
+.section:nth-child(even) span {
+  left: 65px;
+}
+/* @media(max-width: 500px){ 
+      .the_enter h1{
+          font-size: 15px;
+      }
+      .links ul li a{
+          font-size: 5px;
+          position: absolute;
+          top: 40%;
+          left: 50%;
+      }
+  } */
